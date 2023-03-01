@@ -1,3 +1,35 @@
 #girl{
-    width: 10%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.red-text{
+    color:red;
+    font-weight: bolder;
+    text-align: center;
+}
+
+img{
+   float:left;
+}
+
+.flags{
+    margin-right: 10px;
 }

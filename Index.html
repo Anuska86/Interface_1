@@ -1,71 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Act1_Diseño de interfaces</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="style.css">
+  <title>Act1_Diseño de interfaces</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><img src="imgs/logo.png" alt="Logo" style="width:25%"></a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#home" class="w3-bar-item w3-button">Home</a>
-      <a href="#about" class="w3-bar-item w3-button">Empresa</a>
-      <a href="#product" class="w3-bar-item w3-button">Producto</a>
-      <a href="#recipes" class="w3-bar-item w3-button">Recetas</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
-      <img src="imgs/ca.png" alt="Catalan">
-      <img src="imgs/es.png" alt="Spanish">
-      <img src="imgs/en.png" alt="English">
+  <!-- Navbar (sit on top) -->
+  <div>
+    <div class="w3-bar w3-black w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button"><img src="imgs/logo.png" alt="Logo" style="width:25%"></a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small" style="margin-top: 2%;">
+        <a href="#home" class="w3-bar-item">Home</a>
+        <a href="#about" class="w3-bar-item">Empresa</a>
+        <a href="#product" class="w3-bar-item">Producto</a>
+        <a href="#recipes" class="w3-bar-item">Recetas</a>
+        <a href="#contact" class="w3-bar-item">Contacto</a>
+        <img class="flags" src="imgs/ca.png" alt="Catalan">
+        <img class="flags" src="imgs/es.png" alt="Spanish">
+        <img src="imgs/en.png" alt="English">
+      </div>
     </div>
   </div>
-</div>
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  <div class="flex-container">
+    <div>
+      <h3 class="red-text">Las Anchoas</h3>
+      <h3 class="red-text">Un producto mediterráneo</h3>
+
+      <p>La anchoa es un pescado azul y un ingrediente emblemático de la dieta mediterránea. El aceite de oliva de las
+        mejores olivos españolas también beneficia la salud humana.</p>
+
+      <p>El consumo de anchoas es muy recomendable para mantener una dieta equilibrada, rica en Omega 3 que contribuye a
+        regular los niveles de colesterol.</p>
+
+      <p>Anchoves de l'Escala S.A. también ofrece filetes de anchoa en aceite de oliva virgen extra ecológico.</p>
+    </div>
+    <div><img id="girl" src="imgs/mar.jpeg" alt="Girl"></div>
   </div>
-</header>
+  <!-- Page content -->
+  <div class="w3-content w3-padding" style="max-width:1564px">
 
-<!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
-
-
-
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3>Las Anchoas</h3>
-    <h3>Un producto mediterráneo</h3>
-
-        <p>La anchoa es un pescado azul y un ingrediente emblemático de la dieta mediterránea. El aceite de oliva de las mejores olivos españolas también beneficia la salud humana.</p>
-
-        <p>El consumo de anchoas es muy recomendable para mantener una dieta equilibrada, rica en Omega 3 que contribuye a regular los niveles de colesterol.</p>
-        
-        <p>Anchoves de l'Escala S.A. también ofrece filetes de anchoa en aceite de oliva virgen extra ecológico.</p>
-        
-        <img id="girl" src="imgs/mar.jpeg" alt="Girl">
-  </div>
-
-
-
-
-
-
-
-
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-  <p>Copyright by Ana Sappia Rey - Diseño de interfaces web - Act1 </p>
-</footer>
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+      <p>Copyright by Ana Sappia Rey - Diseño de interfaces web - Act1 </p>
+    </footer>
 
 </body>
+
 </html>
